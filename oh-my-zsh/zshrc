@@ -1,0 +1,79 @@
+######### ZSHRC: oh my ZSH #############
+
+export ZSH=/home/bram/.oh-my-zsh
+
+DEFAULT_USER="bram"
+ZSH_THEME="agnoster"
+
+# Uncomment the following line if you want to disable marking untracked files
+# under VCS as dirty. This makes repository status check for large repositories
+# much, much faster.
+# DISABLE_UNTRACKED_FILES_DIRTY="true"
+
+plugins=(git)
+source $ZSH/oh-my-zsh.sh 
+
+#ssh
+export SSH_KEY_PATH="~/.ssh/rsa_id"
+
+### alias's ###
+alias eraser='ssh -X brdjaegh@eraser1.ugent.be'
+
+alias hpc='ssh vsc41614@login.hpc.ugent.be '
+
+alias of222='source $HOME/OpenFOAM/OpenFOAM-2.2.2/etc/bashrc'
+
+alias of230='source $HOME/OpenFOAM/OpenFOAM-2.3.0/etc/bashrc WM_NCOMPPROCS=4 WM_MPLIB=SYSTEMOPENMPI'
+
+alias of401='source /opt/openfoam4/etc/bashrc'
+
+alias actAnaconda='export PATH=/home/bram/anaconda2/bin:$PATH' # activate anaconda
+
+alias github='cd ~/Documents/Github' # github folder
+
+alias copbib='cp ~/Documents/bibTex/Thesis.bib ~/Documents/Github/Templates/latex_masterthesis/.' #copy thesis bibfile to thesis folder
+
+alias ll='ls -alF'
+
+alias la='ls -A'
+
+alias l='ls -CF'
+
+alias iomega='cd /media/bram/Iomega\ HDD'
+
+alias clip='xclip -selection c'
+
+alias sal760='nohup bash ~/.Salome/salome &'
+
+alias paraView4.1='export PATH="/opt/ParaView-4.1.0-Linux-64bit/bin:$PATH"'
+
+alias xclip='xargs echo -n | xclip -selection clipboard' # removes new line from the argument send to xclip
+
+alias eraserPvServer='ssh brdjaegh@eraser1.ugent.be -L 11150:localhost:11111 -g -C'
+
+###### Functions #####
+### svg to TeX ###
+svg2tex(){
+inkscape -D -z --file=$1 --export-pdf=$2 --export-latex
+}
+
+### SCP from eraser to PC ###
+fromEraserCp(){
+scp -C -r brdjaegh@eraser1.ugent.be:$1 $2
+}
+
+### SCP from PC to eraser ###
+toEraserCp(){
+scp -C -r $1 brdjaegh@eraser1.ugent.be:$2
+}
+
+### SCP from HPC to PC ###
+fromHCP(){
+scp -C -r vsc41614@login.hpc.ugent.be:$1 $2
+}
+
+### SCP from PC to HPC ###
+toHCP(){
+scp -C -r $1 vsc41614@login.hpc.ugent.be:$2
+}
+
