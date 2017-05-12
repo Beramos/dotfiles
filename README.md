@@ -1,4 +1,4 @@
 # dotfiles
 
-Locally, this a central folder of all my "dotfiles".
-The dotfiles are distributed through symbolic links. 
+Locally, this is the central folder for all the "dotfiles".
+The dotfiles are distributed through symbolic links to their respective folders. 
