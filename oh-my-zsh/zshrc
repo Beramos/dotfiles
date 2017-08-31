@@ -16,8 +16,8 @@ source $ZSH/oh-my-zsh.sh
 #ssh
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 
-# toggle touchpad
-export PATH=/home/bram/dotfiles/toggle-touchpad.sh:$PATH
+# toggle touchpad script
+export PATH="/home/bram/dotfiles:$PATH"
 
 ### alias's ###
 alias eraser='ssh -X brdjaegh@eraser1.ugent.be'
