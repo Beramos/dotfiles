@@ -28,6 +28,8 @@ alias of222='source $HOME/OpenFOAM/OpenFOAM-2.2.2/etc/bashrc'
 
 alias of230='source $HOME/OpenFOAM/OpenFOAM-2.3.0/etc/bashrc WM_NCOMPPROCS=4 WM_MPLIB=SYSTEMOPENMPI'
 
+alias of301='source /opt/openfoam301/OpenFOAM-3.0.1/etc/bashrc WM_LABEL_SIZE=64'
+
 alias of401='source /opt/openfoam4/etc/bashrc'
 
 alias actAnaconda='export PATH=/home/bram/anaconda2/bin:$PATH' # activate anaconda
@@ -79,4 +81,5 @@ scp -C -r vsc41614@login.hpc.ugent.be:$1 $2
 toHCP(){
 scp -C -r $1 vsc41614@login.hpc.ugent.be:$2
 }
+
 
