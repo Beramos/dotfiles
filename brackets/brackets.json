@@ -215,8 +215,8 @@
             "trigger": "newslide",
             "description": "reveal.js blank slide",
             "scope": "html",
-            "text": "<section class=\"normalHeader\" id=\"${1}\"> \n    <div class=\"header\">  \n        <h2> ${2} </h2>\n    </div>\n<div class=\"paddingWrapper\">\n    <h3><b>${3}</b></h3>\n</div>\n<aside class=\"notes\">TE = truncation Error</aside>\n</section>",
-            "mTime": 1511180821304
+            "text": "<section class=\"normalHeader\" id=\"${1}\"> \n    <div class=\"header\">  \n        <h2> ${2} </h2>\n    </div>\n<div class=\"paddingWrapper\">\n    <h3><b>${3}</b></h3>\n</div>\n<aside class=\"notes\"></aside>\n</section>",
+            "mTime": 1511184806790
         }
     ]
 }
