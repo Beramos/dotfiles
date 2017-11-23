@@ -5,6 +5,8 @@ export ZSH=/home/bram/.oh-my-zsh
 DEFAULT_USER="bram"
 ZSH_THEME="agnoster"
 
+eval `dircolors /home/bram/.dir_colors/dircolors` # Agnoster theme dir colors
+
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
 # much, much faster.
