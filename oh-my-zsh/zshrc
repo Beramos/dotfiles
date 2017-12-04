@@ -90,4 +90,4 @@ deckTape(){
 }
 
 ### Trello executable ###
-alias trello='nohup ~/.trello/Trello &'
+alias trello='nohup ~/.trello/Trello &>/dev/null &'
