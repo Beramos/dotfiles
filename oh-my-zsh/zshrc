@@ -88,3 +88,6 @@ scp -C -r $1 vsc41614@login.hpc.ugent.be:$2
 deckTape(){
 /home/bram/npm-global/lib/node_modules/decktape/decktape.js "$@"
 }
+
+### Trello executable ###
+alias trello='~/.trello/Trello &'
