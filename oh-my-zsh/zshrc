@@ -91,3 +91,7 @@ deckTape(){
 
 ### Trello executable ###
 alias trello='nohup ~/.trello/Trello &>/dev/null &'
+
+### mendeley portable install ###
+alias mendeleyDesktop='nohup ~/.mendeleyDesktop/bin/mendeleydesktop &>/dev/null &'
+
