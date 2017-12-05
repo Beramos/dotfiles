@@ -1,0 +1,5 @@
+#!bin/bash
+## This script creates the symbolic links from this location to location the respective software packages expects them. As far as I know, Github does not support symbolic links so the other way around is not possible.
+
+### Atom
+ln -s ~/dotfiles/atom/styles.less ~/.atom/styles.less
