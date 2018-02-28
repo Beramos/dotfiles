@@ -36,6 +36,8 @@ alias of301='source /opt/openfoam301/OpenFOAM-3.0.1/etc/bashrc WM_LABEL_SIZE=64'
 
 alias of401='source /opt/openfoam4/etc/bashrc'
 
+alias of401_debug='source /home/bram/OpenFOAM/openfoam4_debug/etc/bashrc'
+
 alias actAnaconda='export PATH=/home/bram/anaconda3/bin:$PATH' # activate anaconda
 
 alias github='cd ~/Documents/Github' # github folder
