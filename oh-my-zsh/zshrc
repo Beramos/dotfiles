@@ -99,3 +99,5 @@ alias trello='nohup ~/.trello/Trello &>/dev/null &'
 ### mendeley portable install ###
 alias mendeleyDesktop='nohup ~/.mendeleyDesktop/bin/mendeleydesktop &>/dev/null &'
 
+### Change git user and push to VITO remote ###
+alias pushVitoGit='bash /home/bram/Desktop/EDFouling/pushVitoGit'
