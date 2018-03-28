@@ -12,3 +12,4 @@ This established the symbolic links to the proper locations.
 ## Terminal plugins
 * [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 * [Marker](https://github.com/pindexis/marker)
+* [AutoJump](https://github.com/wting/autojump/wiki)
