@@ -13,8 +13,12 @@ eval `dircolors /home/bram/.dir_colors/dircolors` # Agnoster theme dir colors
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 plugins=(git)
+
 source $ZSH/oh-my-zsh.sh 
+
 [[ -s "$HOME/.local/share/marker/marker.sh" ]] && source "$HOME/.local/share/marker/marker.sh" # marker
+
+[[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh # autojump
 
 ### Path-things ###
 # ssh
