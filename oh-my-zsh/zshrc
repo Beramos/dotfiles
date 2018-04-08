@@ -97,6 +97,21 @@ deckTape(){
 /home/bram/npm-global/lib/node_modules/decktape/decktape.js "$@"
 }
 
+### Switch github account ###
+gitUser(){
+if [[ "$1" == "UGent" ]]; then
+    git config user.name "brdjaegh"
+    git config user.email "bram.dejaegher@UGent.be"
+    echo "Switched to UGent user" 
+elif [[ "$1" == "pers" ]]; then
+    git config user.name "beramos"
+    git config user.email "bram.de.jaegher@gmail.com"
+    echo "Switched to personal user" 
+else 
+    echo "Wrong argument provided, options are: \n - UGent \n - pers (personal) \n"
+fi
+}
+
 ### Trello executable ###
 alias trello='nohup ~/.trello/Trello &>/dev/null &'
 
