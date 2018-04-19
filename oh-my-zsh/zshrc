@@ -27,6 +27,9 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 # toggle touchpad script
 export PATH="/home/bram/dotfiles:$PATH"
 
+# Tool to compute eigenValue, dependency of Rheotool
+export EIGEN_RHEO=/home/bram/OpenFOAM/bram-4.1/ThirdParty/Eigen3.2.9
+
 ### alias's ###
 alias eraser='ssh -X brdjaegh@eraser1.ugent.be'
 
@@ -120,3 +123,4 @@ alias mendeleyDesktop='nohup ~/.mendeleyDesktop/bin/mendeleydesktop &>/dev/null 
 
 ### Change git user and push to VITO remote ###
 alias pushVitoGit='bash /home/bram/Desktop/EDFouling/pushVitoGit'
+
