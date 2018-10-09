@@ -124,3 +124,6 @@ alias mendeleyDesktop='nohup ~/.mendeleyDesktop/bin/mendeleydesktop &>/dev/null 
 ### Change git user and push to VITO remote ###
 alias pushVitoGit='bash /home/bram/Desktop/EDFouling/pushVitoGit'
 
+## Alias for xclip to pbcopy and pbpaste
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
