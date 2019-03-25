@@ -45,6 +45,8 @@ alias of401='source /opt/openfoam4/etc/bashrc'
 
 alias of401_debug='source /home/bram/OpenFOAM/openfoam4_debug/etc/bashrc'
 
+alias of501='source /opt/openfoam5/etc/bashrc'
+
 alias of6='source /opt/openfoam6/etc/bashrc'
 
 alias actAnaconda='export PATH=/home/bram/anaconda3/bin:$PATH' # activate anaconda
@@ -70,6 +72,8 @@ alias paraView4.1='export PATH="/opt/ParaView-4.1.0-Linux-64bit/bin:$PATH"'
 alias xclip='xargs echo -n | xclip -selection clipboard' # removes new line from the argument send to xclip
 
 alias eraserPvServer='ssh brdjaegh@eraser1.ugent.be -L 11150:localhost:11111 -g -C'
+
+alias julia='~/julia-1.0.3/bin/julia'
 
 ###### Functions #####
 ### svg to TeX ###
