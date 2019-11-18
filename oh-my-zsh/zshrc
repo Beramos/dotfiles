@@ -73,7 +73,9 @@ alias xclip='xargs echo -n | xclip -selection clipboard' # removes new line from
 
 alias eraserPvServer='ssh brdjaegh@eraser1.ugent.be -L 11150:localhost:11111 -g -C'
 
-alias julia='~/julia-1.0.3/bin/julia'
+alias julia103='~/julia-1.0.3/bin/julia'
+
+alias julia='~/julia-1.0.5/bin/julia'
 
 ###### Functions #####
 ### svg to TeX ###
