@@ -65,7 +65,7 @@ alias iomega='cd /media/bram/Iomega\ HDD'
 
 alias clip='xclip -selection c'
 
-alias sal760='nohup bash ~/.Salome/salome &'
+alias salome="/home/bram/.salome/salome"
 
 alias paraView4.1='export PATH="/opt/ParaView-4.1.0-Linux-64bit/bin:$PATH"'
 
