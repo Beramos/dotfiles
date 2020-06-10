@@ -139,3 +139,6 @@ alias pushVitoGit='bash /home/bram/Desktop/EDFouling/pushVitoGit'
 ## Alias for xclip to pbcopy and pbpaste
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
+
+## Notion PhD
+alias notion='epiphany-browser https://www.notion.so/brdjaeghugent/PhD-Resources'
