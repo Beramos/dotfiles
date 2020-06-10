@@ -141,4 +141,4 @@ alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 
 ## Notion PhD
-alias notion='epiphany-browser https://www.notion.so/brdjaeghugent/PhD-Resources'
+alias notion='nohup epiphany-browser https://www.notion.so/brdjaeghugent/PhD-Resources > /dev/null 2>&1 && exit'
